@@ -1,3 +1,55 @@
+// ms_MY
+static const Map<int, String> msMonthNames = {
+  1: 'Muharram',
+  2: 'Safar',
+  3: 'RabiulAwal',
+  4: 'RabiulAkhir',
+  5: 'JamadiAwal',
+  6: 'JamadilAkhir',
+  7: 'Rejab',
+  8: 'Syaaban',
+  9: 'Ramadan',
+  10: 'Syawal',
+  11: 'Zulkaedah',
+  12: 'Zulhijjah'
+};
+
+static const Map<int, String> msMonthShortNames = {
+  1: 'Muh',
+  2: 'Saf',
+  3: 'RabAw',
+  4: 'RabAk',
+  5: 'JamAw',
+  6: 'JamAk',
+  7: 'Rej',
+  8: 'Sya',
+  9: 'Ram',
+  10: 'Syaw',
+  11: 'Zulk',
+  12: 'Zulh'
+};
+
+static const Map<int, String> msWdNames = {
+  7: "Ahad",
+  1: "Isnin",
+  2: "Selasa",
+  3: "Rabu",
+  4: "Khamis",
+  5: "Jumaat",
+  6: "Sabtu"
+};
+
+static const Map<int, String> msWdShortNames = {
+  7: "Aha",
+  1: "Isn",
+  2: "Sel",
+  3: "Rab",
+  4: "Kha",
+  5: "Jum",
+  6: "Sat"
+};
+
+// en
 const Map<int, String> monthNames = {
   1: 'Muharram',
   2: 'Safar',
@@ -28,66 +80,6 @@ const Map<int, String> monthShortNames = {
   12: 'DhuH'
 };
 
-const Map<int, String> arMonthNames = {
-  1: 'محرم',
-  2: 'صفر',
-  3: 'ربيع الاول',
-  4: 'ربيع الثاني',
-  5: 'جمادى الأول',
-  6: 'جمادى الثاني',
-  7: 'رجب',
-  8: 'شعبان',
-  9: 'رمضان',
-  10: 'شوال',
-  11: 'ذو القعدة',
-  12: 'ذو الحجة'
-};
-
-const Map<int, String> trMonthNames = {
-  1: 'MUHARREM',
-  2: 'SAFER',
-  3: 'REBİÜLEVVEL',
-  4: 'REBİÜLAHİR',
-  5: 'CEMAZİYELEVVEL',
-  6: 'CEMAZİYELAHİR',
-  7: 'RECEP',
-  8: 'ŞABAN',
-  9: 'RAMAZAN',
-  10: 'ŞEVVAL',
-  11: 'ZİLKADE',
-  12: 'ZİLHİCCE'
-};
-
-const Map<int, String> arMonthShortNames = {
-  1: 'محرم',
-  2: 'صفر',
-  3: 'ربيع١',
-  4: 'ربيع٢',
-  5: 'جمادى١',
-  6: 'جمادى٢',
-  7: 'رجب',
-  8: 'شعب',
-  9: 'رمض',
-  10: 'شوال',
-  11: 'القعدة',
-  12: 'الجة'
-};
-
-const Map<int, String> trMonthShortNames = {
-  1: 'MUHRM',
-  2: 'SAFER',
-  3: 'REBİ1',
-  4: 'REBİ2',
-  5: 'CEMAZ1',
-  6: 'CEMAZ2',
-  7: 'RECEP',
-  8: 'ŞABAN',
-  9: 'RAMZAN',
-  10: 'ŞEVVAL',
-  11: 'ZİLKD',
-  12: 'ZİLHİC'
-};
-
 const Map<int, String> wdNames = {
   7: "Sunday",
   1: "Monday",
@@ -108,6 +100,37 @@ const Map<int, String> shortWdNames = {
   6: "Sat"
 };
 
+// arabic
+const Map<int, String> arMonthNames = {
+  1: 'محرم',
+  2: 'صفر',
+  3: 'ربيع الاول',
+  4: 'ربيع الثاني',
+  5: 'جمادى الأول',
+  6: 'جمادى الثاني',
+  7: 'رجب',
+  8: 'شعبان',
+  9: 'رمضان',
+  10: 'شوال',
+  11: 'ذو القعدة',
+  12: 'ذو الحجة'
+};
+
+const Map<int, String> arMonthShortNames = {
+  1: 'محرم',
+  2: 'صفر',
+  3: 'ربيع١',
+  4: 'ربيع٢',
+  5: 'جمادى١',
+  6: 'جمادى٢',
+  7: 'رجب',
+  8: 'شعب',
+  9: 'رمض',
+  10: 'شوال',
+  11: 'القعدة',
+  12: 'الجة'
+};
+
 const Map<int, String> arWkNames = {
   7: "الأحد",
   1: "الإثنين",
@@ -116,16 +139,6 @@ const Map<int, String> arWkNames = {
   4: "الخميس",
   5: "الجمعة",
   6: "السبت"
-};
-
-const Map<int, String> trWkNames = {
-  7: "Pazar",
-  1: "Pazartesi",
-  2: "Salı",
-  3: "Çarşamba",
-  4: "Perşembe",
-  5: "Cuma",
-  6: "Cumartesi"
 };
 
 const Map<int, String> arShortWdNames = {
@@ -138,6 +151,47 @@ const Map<int, String> arShortWdNames = {
   6: "سبت"
 };
 
+// tr
+const Map<int, String> trMonthNames = {
+  1: 'MUHARREM',
+  2: 'SAFER',
+  3: 'REBİÜLEVVEL',
+  4: 'REBİÜLAHİR',
+  5: 'CEMAZİYELEVVEL',
+  6: 'CEMAZİYELAHİR',
+  7: 'RECEP',
+  8: 'ŞABAN',
+  9: 'RAMAZAN',
+  10: 'ŞEVVAL',
+  11: 'ZİLKADE',
+  12: 'ZİLHİCCE'
+};
+
+const Map<int, String> trMonthShortNames = {
+  1: 'MUHRM',
+  2: 'SAFER',
+  3: 'REBİ1',
+  4: 'REBİ2',
+  5: 'CEMAZ1',
+  6: 'CEMAZ2',
+  7: 'RECEP',
+  8: 'ŞABAN',
+  9: 'RAMZAN',
+  10: 'ŞEVVAL',
+  11: 'ZİLKD',
+  12: 'ZİLHİC'
+};
+
+const Map<int, String> trWkNames = {
+  7: "Pazar",
+  1: "Pazartesi",
+  2: "Salı",
+  3: "Çarşamba",
+  4: "Perşembe",
+  5: "Cuma",
+  6: "Cumartesi"
+};
+
 const Map<int, String> trShortWdNames = {
   7: "Pazar",
   1: "Pazartesi",
@@ -148,6 +202,7 @@ const Map<int, String> trShortWdNames = {
   6: "Cumartesi"
 };
 
+// umm Alqura
 const List<int> ummAlquraDateArray = [
   28607,
   28636,

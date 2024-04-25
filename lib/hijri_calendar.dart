@@ -17,6 +17,12 @@ class HijriCalendar {
   Map<int, int>? adjustments;
 
   static Map<String, Map<String, Map<int, String>>> _local = {
+    'ms': {
+      'long': msMonthNames,
+      'short': msMonthShortNames,
+      'days': msWdNames,
+      'short_days': msWdShortNames
+    },
     'en': {
       'long': monthNames,
       'short': monthShortNames,
