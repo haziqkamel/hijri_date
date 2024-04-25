@@ -1,5 +1,5 @@
 // ms_MY
-static const Map<int, String> msMonthNames = {
+const Map<int, String> msMonthNames = {
   1: 'Muharram',
   2: 'Safar',
   3: 'RabiulAwal',
@@ -14,7 +14,7 @@ static const Map<int, String> msMonthNames = {
   12: 'Zulhijjah'
 };
 
-static const Map<int, String> msMonthShortNames = {
+const Map<int, String> msMonthShortNames = {
   1: 'Muh',
   2: 'Saf',
   3: 'RabAw',
@@ -29,7 +29,7 @@ static const Map<int, String> msMonthShortNames = {
   12: 'Zulh'
 };
 
-static const Map<int, String> msWdNames = {
+const Map<int, String> msWdNames = {
   7: "Ahad",
   1: "Isnin",
   2: "Selasa",
@@ -39,7 +39,7 @@ static const Map<int, String> msWdNames = {
   6: "Sabtu"
 };
 
-static const Map<int, String> msWdShortNames = {
+const Map<int, String> msWdShortNames = {
   7: "Aha",
   1: "Isn",
   2: "Sel",
